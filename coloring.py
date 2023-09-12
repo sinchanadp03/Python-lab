@@ -33,7 +33,7 @@ students={
     'Math':['Alice','Bob','Charlie'],
     'Physics':['Alice','Charlie','David'],
     'chemistry':['Bob','Charlie','Eve'],
-    'Biology':['Alice','David','eve']
+    'Biology':['Alice','David','Eve']
     }
 graph=Graph(subjects)
 graph.add_edge('Math','Physics')
