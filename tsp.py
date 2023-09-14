@@ -1,3 +1,9 @@
+#Design an application for drilling an optimal printed circuit board. 
+#To drill two holes of different diameters consecutively, the head of the machine has to move to a toolbox and change the drilling equipment. This is quite time consuming. 
+#Thus, it is clear that one has to choose some diameter, drill all holes of the same diameter, change the drill, drill the holes of the next diameter, etc. 
+#Thus, this drilling problem has to minimize the travel time for the machine head. 
+#Find the optimal time to drill the circuit board
+
 import networkx as nx
 def get_distances(num_nodes):
     distances={}
