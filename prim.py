@@ -1,3 +1,6 @@
+Design an application for a thermal power station and electrical lines that are connected among various power stations. 
+The costs of electrification involved appear as weights on the edges. 
+Obtain the minimum possible connection among the thermal stations so that any two thermal stations can be linked with the minimum cost involved.
 import sys
 
 class Graph:
