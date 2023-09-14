@@ -1,3 +1,8 @@
+#The owner of a gourmet coffee shop wishes to mix a 10-pound bag of coffee using various types of coffee beans in such a way to produce the coffee blend at the maximum cost. 
+#The weights of the objects in the problem correspond to the quantity in pounds available of each type of coffee bean. 
+#The value of each quantity of coffee beans is the total cost of that quantity in rupees. 
+#Apply the Knapsack algorithm to maximize the profit.
+
 def knapsack(weight,cost,capacity):
     num=len(weight)
     table=[[0]*(capacity+1)for __ in range(num+1)]
