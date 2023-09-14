@@ -1,6 +1,6 @@
-Develop a program for the following:
-a. To construct a Huffman code for a given English text and encode it.
-b. To decode an English text which has been encoded with a Huffman code.
+#Develop a program for the following:
+#a. To construct a Huffman code for a given English text and encode it.
+#b. To decode an English text which has been encoded with a Huffman code.
 
 
 import heapq
