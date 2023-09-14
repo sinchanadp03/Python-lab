@@ -1,3 +1,7 @@
+#Develop an optimal route for a scenario where a person wants to buy a ticket to a baseball game.
+#Along the way from house to reaching the destination, some known person who lives on that street might give money. 
+#Visit towns for the collection of more money to buy a ticket.
+
 import heapq
 def dij(graph,start):
     distances={node:float('inf') for node in graph} 
