@@ -1,3 +1,7 @@
+#Design and implement an application that considers the problem of scheduling n jobs of known durations t1, t2,..., tn for execution by a single processor.
+#The jobs can be executed in any order, one job at a time.
+#Find and display the schedule that minimizes the total time spent by all the jobs in the system by maximizing the profit.
+
 class Job:
     def __init__(self, taskId, deadline, profit):
         self.taskId = taskId
