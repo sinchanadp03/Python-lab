@@ -1,3 +1,10 @@
+#Design an application for the university to schedule an exam. 
+#Given a list of different subjects and students who are enrolled in many subjects, many subjects would have common students of the same batch, some backlogged students, etc.
+#Find the solution to the following:
+#a. Obtain the schedule for the exam so that no two exams with a common student are scheduled at the same time.
+#b. How many minimum time slots are needed to schedule all exams?
+
+
 import collections
 class Graph:
     def __init__(self,subjects):
