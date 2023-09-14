@@ -1,3 +1,7 @@
+#Design an application to create a list of TV channels (minimum 10) that includes the numbers of viewers and viewing time. 
+#Rate the channels based on the number of viewers (1 High - 6 low). 
+#Plot graphs to analyze the running times of different sorting algorithms.
+
 import time
 from numpy.random import seed
 from numpy.random import randint
