@@ -1,3 +1,9 @@
+#Design and implement for a given chess board having N×N cells, place N queens on the board in such a way that no queen attacks any other queen. 
+#If it is possible to place all the N queens in such a way that no queen attacks another queen, then print N lines having N Queens. 
+#If there is more than one solution of placing the queens, print all of them. 
+#If it is not possible to place all N queens in the desired way, then print "Not possible".
+
+
 def is_safe(board,row,col,N):
     for i in range(col):
         if board[row][i]==1:
